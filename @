@@ -1,0 +1,63 @@
+
+
+Framework Information:
+MOOSE version:           git commit ec3f390 on 2015-08-12
+PETSc Version:           3.6.0
+Current Time:            Wed Dec 30 18:10:40 2015
+Executable Timestamp:    Wed Dec 30 17:12:26 2015
+
+Parallelism:
+  Num Processors:          120
+  Num Threads:             1
+
+Mesh: 
+  Distribution:            serial
+  Mesh Dimension:          3
+  Spatial Dimension:       3
+  Nodes:                   
+    Total:                 3442951
+    Local:                 31645
+  Elems:                   
+    Total:                 3375000
+    Local:                 28306
+  Num Subdomains:          1
+  Num Partitions:          120
+  Partitioner:             metis
+
+Nonlinear System:
+  Num DOFs:                13771804
+  Num Local DOFs:          126580
+  Variables:               { "T" "Chi_X" "Chi_Y" } "Chi_Z" 
+  Finite Element Types:    "LAGRANGE" "LAGRANGE" 
+  Approximation Orders:    "FIRST" "FIRST" 
+
+Auxiliary System:
+  Num DOFs:                30442951
+  Num Local DOFs:          258093
+  Variables:               "RGB_aux_variable" "adapt_aux_variable" { "indicator" "marker" } { "RGB" "conductivity" 
+                             "density" "q_generated" "specific_heat" } 
+  Finite Element Types:    "MONOMIAL" "LAGRANGE" "MONOMIAL" "MONOMIAL" 
+  Approximation Orders:    "CONSTANT" "FIRST" "CONSTANT" "CONSTANT" 
+
+Execution Information:
+  Executioner:             Steady
+  Solver Mode:             Preconditioned JFNK
+
+
+
+Reading image(s)...
+          ...image read finished
+ 0 Nonlinear |R| = [32m3.578153e+02[39m
+ 1 Nonlinear |R| = [32m1.235126e-02[39m
+ 2 Nonlinear |R| = [32m6.329303e-05[39m
+ 3 Nonlinear |R| = [32m1.150896e-09[39m
+
+Postprocessor Values:
++----------------+----------------+----------------+----------------+
+| time           | k_xx           | k_yy           | k_zz           |
++----------------+----------------+----------------+----------------+
+|   1.000000e+00 |   1.974917e+00 |   1.980296e+00 |   1.980973e+00 |
++----------------+----------------+----------------+----------------+
+
+
+done

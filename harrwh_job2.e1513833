@@ -1,0 +1,106 @@
+Lmod has detected the following error: Your site prevents the automatic
+swapping of modules with same name. You must explicitly unload the loaded
+version of "pbs" before you can load the new one. Use swap (or an unload
+followed by a load) to do this:
+
+   $ module swap pbs  pbs
+
+Alternatively, you can set the environment variable
+LMOD_DISABLE_SAME_NAME_AUTOSWAP to "no" to re-enable same name autoswapping. 
+
+ i=2601, n_nodes()=1118203
+[1] ../src/mesh/serial_mesh.C, line  i=2601, n_nodes()=1118203
+[2] ../src/mesh/serial_mesh.C, line 206 i=2601, n_nodes()=1118203
+[3] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54 i= i=2601, n_nodes()=1118203
+[9] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[13] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[14] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[15] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[22] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+206, compiled Feb 10 2016 at 13:31:54
+, compiled Feb 10 2016 at 13:31:54
+
+ i=2601, n_nodes()=1118203
+[8] ../src/mesh/serial_mesh.C, line  i=2601, n_nodes()=1118203
+[18] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[20] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[21] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[17] ../src/mesh/serial_mesh.C, line  i=2601, n_nodes()=1118203
+206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[19] ../src/mesh/serial_mesh.C, line  i=2601, n_nodes()=1118203
+ i=2601, n_nodes()=1118203
+[6] ../src/mesh/serial_mesh.C[16] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+206, compiled Feb 10 2016 at 13:31:54
+[5] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+, line 206, compiled Feb 10 2016 at 13:31:54
+2601, n_nodes()=1118203
+[4] ../src/mesh/serial_mesh.C, line  i=206, compiled Feb 10 2016 at 13:31:54
+ i=2601, n_nodes()=1118203
+[cli_8]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+[10] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+[cli_1]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+[cli_2]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+[cli_3]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+[cli_9]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+[cli_13]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+[cli_14]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+[cli_15]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+[cli_18]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+[cli_20]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+[cli_21]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+[cli_22]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+[cli_5]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+[cli_6]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+[cli_16]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+[cli_17]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+[cli_19]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+ i=2601, n_nodes()=1118203
+[11] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+[cli_4]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+2601[cli_10]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+ i= i=2601, n_nodes()=11182032601, n_nodes()=1118203
+[12] ../src/mesh/serial_mesh.C
+[23] ../src/mesh/serial_mesh.C, line , line 206, compiled Feb 10 2016 at 13:31:54
+206, compiled Feb 10 2016 at 13:31:54
+, n_nodes()=1118203[cli_11]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+
+[7] [cli_12]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+[cli_23]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+../src/mesh/serial_mesh.C, line  i=206, compiled Feb 10 2016 at 13:31:54
+2601, n_nodes()=1118203
+[cli_7]: [0] ../src/mesh/serial_mesh.C, line 206, compiled Feb 10 2016 at 13:31:54
+aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
